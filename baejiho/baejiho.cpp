@@ -7,7 +7,13 @@
 
 int main()
 {
-   printf("hello world "); 
+	int a, b;
+	printf("hello world "); 
+	scanf("%d%d", &a, &b);
+
+	printf("%d+%d=%d", a, b, a + b);
+
+	
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
